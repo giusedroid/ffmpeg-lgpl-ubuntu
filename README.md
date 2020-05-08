@@ -5,7 +5,7 @@ FFmpeg Docker container compiled to be compatible with LGPL starting from Ubuntu
 
 This software uses code of <a href=http://ffmpeg.org>FFmpeg</a> licensed under
 the <a href=http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html>LGPLv2.1</a>
-and its source can be downloaded <a href="/fmpeg/ffmpeg-4.2.2.tar.bz2">here</a>.   
+and its source can be downloaded <a href="/ffmpeg/ffmpeg-4.2.2.tar.bz2">here</a>.   
 
 A copy of the LGPLv2.1 is also available in this repository [here](/ffmpeg/LICENSE).  
 
