@@ -4,7 +4,7 @@
 #
 
 FROM        ubuntu:18.04 AS base
-MAINTAINER  Giuseppe Battista <gbatt@amazon.com>
+MAINTAINER  Giuseppe Battista <giusedroid@gmail.com>
 WORKDIR     /tmp/workdir
 
 RUN     apt-get -yqq update && \
