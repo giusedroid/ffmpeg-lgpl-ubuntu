@@ -50,10 +50,10 @@ RUN      buildDeps="autoconf \
 
 
 ## ffmpeg https://ffmpeg.org/
-## TODO: once this is public, switch these sources with locked down sources in this repo
+
 RUN  \
         DIR=/tmp/ffmpeg && mkdir -p ${DIR} && cd ${DIR} && \
-        curl -sLO https://ffmpeg.org/releases/ffmpeg-${FFMPEG_VERSION}.tar.bz2 && \
+        curl -sLO https://github.com/giusedroid/ffmpeg-lgpl-ubuntu/blob/master/ffmpeg/ffmpeg-4.2.2.tar.bz2?raw=true && \
         tar -jx --strip-components=1 -f ffmpeg-${FFMPEG_VERSION}.tar.bz2
 
 RUN \
