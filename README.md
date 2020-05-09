@@ -1,4 +1,5 @@
 # ffmpeg-lgpl-ubuntu
+![build status](https://travis-ci.com/giusedroid/ffmpeg-lgpl-ubuntu.svg?branch=master)  
 FFmpeg Docker container compiled to be compatible with LGPL starting from Ubuntu 18
 
 ## Legal Notice about the usage of FFmpeg
